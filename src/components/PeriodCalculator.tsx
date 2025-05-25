@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { format, addDays, differenceInDays, subDays, isSameDay, startOfDay, isSameMonth } from 'date-fns';
+import { format, addDays, differenceInDays, subDays, isSameDay, isSameMonth } from 'date-fns';
 import { it } from 'date-fns/locale';
 
 interface PeriodCalculatorProps {
