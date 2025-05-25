@@ -116,7 +116,6 @@ export default function PeriodCalculator({
   };
 
   const calendarDays = generateCalendarDays(selectedDate);
-  const currentMonth = format(selectedDate, 'MMMM yyyy', { locale: it });
   const startMonth = format(calendarDays[0].date, 'MMMM', { locale: it });
   const endMonth = format(calendarDays[calendarDays.length - 1].date, 'MMMM', { locale: it });
   const monthRange = startMonth === endMonth ? startMonth : `${startMonth} - ${endMonth}`;
